@@ -270,3 +270,10 @@ footer {
 .btn:hover {
   background-color:#ffCC00;  
 }
+
+@media (max-width: 768px) {
+    .to-design-detail {
+    flex-direction: column;
+    text-align: center;
+  }
+}
