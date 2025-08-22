@@ -312,11 +312,11 @@ footer {
 }
 
 .section:nth-child(1) {
-  background: #ff9a9e;
+  background: black;
 }
 .section:nth-child(2) {
-  background: #a18cd1;
+  background: black;
 }
 .section:nth-child(3) {
-  background: #fbc2eb;
+  background: black;
 }
