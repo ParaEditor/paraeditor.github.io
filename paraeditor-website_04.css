@@ -290,3 +290,33 @@ footer {
     padding: 10px 24px;
   }
 }
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section:nth-child(1) {
+  background: #ff9a9e;
+}
+.section:nth-child(2) {
+  background: #a18cd1;
+}
+.section:nth-child(3) {
+  background: #fbc2eb;
+}
