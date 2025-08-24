@@ -31,6 +31,43 @@ body {
     padding: 1rem 2rem;
 }
 
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 6px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;  /* 初期は非表示 */
+    flex-direction: column;
+    background: #222;
+    position: absolute;
+    top: 60px;   /* ヘッダーの下に出す */
+    right: 0;
+    width: 200px;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .nav-links.active {
+    display: flex;  /* 開いたときだけ表示 */
+  }
+}
+
 .nav-links {
     list-style: none;
     display: flex;
