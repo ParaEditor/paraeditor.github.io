@@ -295,6 +295,7 @@ footer {
   text-decoration: none;
   border-radius: 9999px;
   transition: transform 0.2s;
+  margin-bottom: 200px;
 }
 
 .btn:hover {
