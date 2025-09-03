@@ -46,27 +46,6 @@ body {
   transition: 0.3s;
 }
 
-@media (max-width: 768px) {
-  .hamburger {
-    display: flex;
-  }
-
-  .nav-links {
-    display: none;  /* 初期は非表示 */
-    flex-direction: column;
-    background: #222;
-    position: absolute;
-    top: 60px;   /* ヘッダーの下に出す */
-    right: 0;
-    width: 200px;
-    padding: 1rem;
-    gap: 1rem;
-  }
-
-  .nav-links.active {
-    display: flex;  /* 開いたときだけ表示 */
-  }
-}
 
 .nav-links {
     list-style: none;
@@ -255,7 +234,30 @@ footer {
     height: auto;
     max-height: 70vh;
   }
+
+  
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;  /* 初期は非表示 */
+    flex-direction: column;
+    background: #222;
+    position: absolute;
+    top: 60px;   /* ヘッダーの下に出す */
+    right: 0;
+    width: 200px;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .nav-links.active {
+    display: flex;  /* 開いたときだけ表示 */
+  }
 }
+
+
 
 .to-design {
   text-align: center; /* 全体中央寄せ */
